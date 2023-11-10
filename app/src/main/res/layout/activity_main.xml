@@ -8,14 +8,36 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/vaso1"
+        android:id="@+id/restaurants"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:contentDescription="vaso"
         android:src="@drawable/restaurants"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:onClick="open">
+        android:onClick="clickRestaurants">
     </ImageView>
+
+    <ImageView
+        android:id="@+id/esports"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/esports"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/restaurants"
+        android:layout_marginLeft="20dp"
+        android:onClick="clickEsports">
+    </ImageView>
+    <ImageView
+        android:id="@+id/movies"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/movies"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/restaurants"
+        android:layout_marginRight="20dp"
+        android:onClick="clickMovies">
+    </ImageView>
+
+
 
 </RelativeLayout>
