@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="App d'Informació"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp">
+
+    </TextView>
+
     <ImageView
         android:id="@+id/restaurants"
         android:layout_width="100sp"
