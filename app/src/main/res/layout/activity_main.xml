@@ -37,6 +37,7 @@
         android:layout_marginLeft="20dp"
         android:onClick="clickEsports">
     </ImageView>
+
     <ImageView
         android:id="@+id/movies"
         android:layout_width="100sp"
@@ -46,6 +47,17 @@
         android:layout_toLeftOf="@id/restaurants"
         android:layout_marginRight="20dp"
         android:onClick="clickMovies">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/tranport"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/transport"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/restaurants"
+        android:layout_marginBottom="20dp">
+
     </ImageView>
 
 
