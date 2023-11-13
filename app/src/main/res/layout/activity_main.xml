@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,19 +24,8 @@
         android:layout_height="100sp"
         android:src="@drawable/restaurants"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="240dp"
         android:onClick="clickRestaurants">
-    </ImageView>
-
-    <ImageView
-        android:id="@+id/esports"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
-        android:src="@drawable/esports"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/restaurants"
-        android:layout_marginLeft="20dp"
-        android:onClick="clickEsports">
     </ImageView>
 
     <ImageView
@@ -44,21 +34,11 @@
         android:layout_height="100sp"
         android:src="@drawable/movies"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@id/restaurants"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="70dp"
         android:onClick="clickMovies">
     </ImageView>
 
-    <ImageView
-        android:id="@+id/tranport"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
-        android:src="@drawable/transport"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/restaurants"
-        android:layout_marginBottom="20dp">
 
-    </ImageView>
 
 
 
