@@ -10,5 +10,11 @@ public class Cartellera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cartellera);
+
+        //TODO: Ver si es posible establecer aqui las descripciones o buscar algo similar al *** onLoad ***
+
+
     }
+
+
 }

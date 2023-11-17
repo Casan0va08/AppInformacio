@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AppInformacio</string>
+
+
+    <string name="descripcioAlimanas">Alimañas es una comedia negra que cuenta la historia de una familia que espera con ansias la muerte de una anciana, madre de Carlos y Paco, para poder heredar un edificio que esta en su propiedad.</string>
+    <string name="descripcioFNAF">El aterrador y exitoso juego de miedo se convierte en un evento cinematográfico cuando Blumhouse lleva FIVE NIGHTS AT FREDDY\'S en la gran pantalla. La película gira en torno a un atormentado guardia de seguridad que empieza a trabajar en Freddy Fazbear\'s Pizza. En la primera noche de trabajo, se da cuenta de que no será fácil superar el turno de noche en la pizzería.</string>
+    <string name="descripcioSabenAquell">Barcelona, finales de los 60. Eugenio Jofra, un joven joyero, conoce a Conchita en un autobús de línea. El flechazo es instantáneo y los dos comienzan la historia de amor de sus vidas. Eugenio aprende a tocar la guitarra para acompañar a Conchita, para lo que tendrá que luchar contra el miedo escénico. Eugenio se convierte en un fenómeno del humor underground de la ciudad. Poco a poco, entre los dos irán construyendo al personaje: las gafas, la camisa negra, el taburete, los cigarrillos y el vaso de tubo, que se convertirá en un éxito inesperado en una España deprimida que busca desesperadamente reírse con ese singular cómico que empieza todos sus chistes con \'Saben aquell...\'.</string>
+    <string name="descripcioJDHambre"></string>
+    <string name="descripcioSawX"></string>
+    <string name="descripcioMarvels"></string>
+
+
+
+
+
+
+
+
 </resources>
