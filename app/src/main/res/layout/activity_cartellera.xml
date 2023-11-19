@@ -10,6 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="20px"
         android:src="@drawable/logoocinegra">
     </ImageView>
     <ScrollView
@@ -126,7 +127,7 @@
                         android:text="Los Juegos del Hambre: Balada de pájaros cantores y serpientes">
                     </TextView>
                     <TextView
-                        android:id="@+id/tvjdhambre"
+                        android:id="@+id/tvJDHambre"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:paddingLeft="10dp"

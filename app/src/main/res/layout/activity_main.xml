@@ -35,6 +35,7 @@
         android:src="@drawable/movies"
         android:layout_centerVertical="true"
         android:layout_marginLeft="70dp"
+        android:clickable="true"
         android:onClick="clickMovies">
     </ImageView>
 
