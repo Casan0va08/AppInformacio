@@ -41,5 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(cartellera);
         }
 
+        else if (view.getId() == R.id.restaurants)
+        {
+            Intent restaurants = new Intent(this, Restaurants.class);
+            startActivity(restaurants);
+        }
     }
 }
