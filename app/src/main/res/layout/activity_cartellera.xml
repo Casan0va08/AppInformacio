@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +9,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="20px"
+        android:paddingBottom="20dp"
+        android:contentDescription="@string/logoOCine"
         android:src="@drawable/logoocinegra">
     </ImageView>
     <ScrollView
@@ -18,7 +18,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,6 +26,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="200dp"
+                    android:contentDescription="@string/caratulaAlimanas"
                     android:src="@drawable/alimanas">
                 </ImageView>
                 <LinearLayout
@@ -35,15 +36,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="30sp"
-                        android:text="Alimañas">
+                        android:text="@string/titleAlimanas">
                     </TextView>
                     <TextView
                         android:id="@+id/tvAlimanas"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>
@@ -55,6 +58,7 @@
                 <ImageView
                     android:layout_width="141dp"
                     android:layout_height="223dp"
+                    android:contentDescription="@string/caratulaFNAF"
                     android:src="@drawable/fnaf">
                 </ImageView>
                 <LinearLayout
@@ -64,15 +68,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="30sp"
-                        android:text="Five Nights at Freddy's">
+                        android:text="@string/titleFNAF">
                     </TextView>
                     <TextView
                         android:id="@+id/tvFNAF"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>
@@ -84,6 +90,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="200dp"
+                    android:contentDescription="@string/caratulaSabenAquell"
                     android:src="@drawable/sabenaquell">
                 </ImageView>
                 <LinearLayout
@@ -93,15 +100,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="30sp"
-                        android:text="Saben Aquell">
+                        android:text="@string/titleSabenAquell">
                     </TextView>
                     <TextView
                         android:id="@+id/tvSabenAquell"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>
@@ -113,6 +122,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="200dp"
+                    android:contentDescription="@string/caratulaJDHambre"
                     android:src="@drawable/juegosdelhambre">
                 </ImageView>
                 <LinearLayout
@@ -122,15 +132,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
-                        android:text="Los Juegos del Hambre: Balada de pájaros cantores y serpientes">
+                        android:text="@string/titleJDHambre">
                     </TextView>
                     <TextView
                         android:id="@+id/tvJDHambre"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>
@@ -142,6 +154,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="205dp"
+                    android:contentDescription="@string/caratulaSawX"
                     android:src="@drawable/sawx">
                 </ImageView>
                 <LinearLayout
@@ -151,15 +164,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="30sp"
-                        android:text="Saw X">
+                        android:text="@string/titleSawX">
                     </TextView>
                     <TextView
                         android:id="@+id/tvSawX"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>
@@ -171,6 +186,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="200dp"
+                    android:contentDescription="@string/caratulaMarvels"
                     android:src="@drawable/themarvels">
                 </ImageView>
                 <LinearLayout
@@ -180,15 +196,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
                     android:textSize="30sp"
-                    android:text="The Marvels">
+                    android:text="@string/titleMarvels">
                 </TextView>
                     <TextView
                         android:id="@+id/tvMarvels"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
                         android:textSize="20sp"
                         android:text="">
                     </TextView>

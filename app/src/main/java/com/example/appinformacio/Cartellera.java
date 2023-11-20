@@ -9,8 +9,6 @@ import android.content.res.Resources;
 public class Cartellera extends AppCompatActivity {
 
     TextView tvAlimanas, tvFNAF, tvSabenAquell, tvJDHambre, tvSawX, tvMarvels;
-    Resources resources = getResources();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
