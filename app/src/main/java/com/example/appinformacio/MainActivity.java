@@ -6,9 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.content.SharedPreferences;
+
+import androidx.preference.PreferenceManager;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
+    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+    boolean enableFunction = preferences.getBoolean("preference_key_checkbox", false);
+    String username = preferences.getString("preference_key_text", "");
 
     ImageView restaurant, movies;
 
@@ -27,6 +34,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         restaurant = findViewById(R.id.restaurants);
         movies = findViewById(R.id.movies);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String backgroundColorValue = preferences.getString("preference_key_background_color", "1");
+
     }
 
 
@@ -46,3 +57,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
+
