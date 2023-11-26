@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_background_color"
+        android:title="Canviar Color de Fondo"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/preference_change_text_size"
+        android:title="Canviar Tamany Lletra"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/preference_change_text_color"
+        android:title="Canviar Color Lletra"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/preference_change_text_type"
+        android:title="Canviar Font Lletra"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/preference_change_image_size"
+        android:title="Canviar Tamany Lletra"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -17,4 +17,19 @@
         android:inputType="numberDecimal"
         android:defaultValue="16"
         />
+
+    <EditTextPreference
+        android:key="preference_change_text_color"
+        android:title="Canviar Color Lletra"
+        />
+
+    <EditTextPreference
+        android:key="@+id/preference_change_text_type"
+        android:title="Canviar Font Lletra"
+        />
+
+    <EditTextPreference
+        android:key="@+id/preference_change_image_size"
+        android:title="Canviar Tamany Lletra"
+        />
 </PreferenceScreen>

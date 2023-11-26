@@ -6,6 +6,7 @@
 
     <string name="cdRestaurants">iconRestaurants</string>
     <string name="cdCartellera">iconCartellera</string>
+    <string name="cdSettings">iconSettings</string>
 
     <string name="caratulaAlimanas">Caratula Alimañas</string>
     <string name="caratulaFNAF">Caratula FNAF</string>
