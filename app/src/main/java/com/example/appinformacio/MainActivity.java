@@ -5,12 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.content.SharedPreferences;
 
 import androidx.preference.PreferenceManager;
+
+import java.util.Arrays;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
@@ -38,6 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         String backgroundColorValue = preferences.getString("preference_key_background_color", "1");
+
+        List<String> data = Arrays.asList("Japonés", "Italià", "Gelats");
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        CustomAdapter adapter = new CustomAdapter(data);
+        recyclerView.setAdapter(adapter);
     }
 
 

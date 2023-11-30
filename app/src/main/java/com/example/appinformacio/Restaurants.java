@@ -3,6 +3,8 @@ package com.example.appinformacio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class Restaurants extends AppCompatActivity {
 
@@ -11,4 +13,7 @@ public class Restaurants extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants);
     }
+
+
+
 }
