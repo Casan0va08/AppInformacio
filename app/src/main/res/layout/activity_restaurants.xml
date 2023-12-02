@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,7 +11,6 @@
         android:text="Restaurants"
         android:textAlignment="center">
     </TextView>
-
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
@@ -20,21 +18,17 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="100dp"
@@ -51,19 +45,31 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
-
                         <Button
+                            android:id="@+id/URLPomodoro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hola">
+                            android:onClick="onClick"
+                            android:text="URL">
                         </Button>
-
-
+                        <Button
+                            android:id="@+id/TelfPomodoro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiPomodoro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -71,7 +77,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="100dp"
@@ -88,25 +93,37 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
-
-
-
+                        <Button
+                            android:id="@+id/URLWok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="URL">
+                        </Button>
+                        <Button
+                            android:id="@+id/TelfWok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiWok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="118dp"
@@ -123,25 +140,37 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
-
-
-
+                        <Button
+                            android:id="@+id/URLMcDonalds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="URL">
+                        </Button>
+                        <Button
+                            android:id="@+id/TelfMcDonalds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiMcDonalds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="105dp"
@@ -158,25 +187,37 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
-
-
-
+                        <Button
+                            android:id="@+id/URLViena"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="URL">
+                        </Button>
+                        <Button
+                            android:id="@+id/TelfViena"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiViena"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="135dp"
@@ -193,25 +234,37 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
-
-
-
+                        <Button
+                            android:id="@+id/URLKFC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="URL">
+                        </Button>
+                        <Button
+                            android:id="@+id/TelfKFC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiKFC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="135dp"
@@ -228,28 +281,33 @@
                         android:textSize="20sp"
                         android:textAlignment="center">
                     </TextView>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
-
-
-
+                        <Button
+                            android:id="@+id/URLBK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="URL">
+                        </Button>
+                        <Button
+                            android:id="@+id/TelfBK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Telèfon">
+                        </Button>
+                        <Button
+                            android:id="@+id/UbiBK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="Ubicació">
+                        </Button>
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
             </LinearLayout>
-
-
-
-
-
         </LinearLayout>
     </ScrollView>
-
-
-
 </LinearLayout>
