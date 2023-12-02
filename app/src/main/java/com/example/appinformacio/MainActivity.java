@@ -2,21 +2,11 @@ package com.example.appinformacio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.content.SharedPreferences;
-
-import androidx.preference.PreferenceManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.Arrays;
-import java.util.List;
-
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
@@ -40,13 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         restaurant  = findViewById(R.id.restaurants);
         movies      = findViewById(R.id.movies);
         settings    = findViewById(R.id.settings);
-
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        String backgroundColorValue = preferences.getString("preference_key_background_color", "1");
-
-        List<String> data = Arrays.asList("Japonés", "Italià", "Gelats");
-
-
     }
 
     @Override

@@ -6,9 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Spinner;
 
 public class Restaurants extends AppCompatActivity implements View.OnClickListener
 {
@@ -24,18 +22,18 @@ public class Restaurants extends AppCompatActivity implements View.OnClickListen
         URLWok          = findViewById(R.id.URLWok);
         TelfWok         = findViewById(R.id.TelfWok);
         UbiWok          = findViewById(R.id.UbiWok);
-        URLMcDonalds    = findViewById(R.id.URLPomodoro);
-        TelfMcDonalds   = findViewById(R.id.TelfPomodoro);
-        UbiMcDonalds    = findViewById(R.id.UbiPomodoro);
-        URLViena        = findViewById(R.id.URLPomodoro);
-        TelfViena       = findViewById(R.id.TelfPomodoro);
-        UbiViena        = findViewById(R.id.UbiPomodoro);
-        URLKFC          = findViewById(R.id.URLPomodoro);
-        TelfKFC         = findViewById(R.id.TelfPomodoro);
-        UbiKFC          = findViewById(R.id.UbiPomodoro);
-        URLBK           = findViewById(R.id.URLPomodoro);
-        TelfBK          = findViewById(R.id.TelfPomodoro);
-        UbiBK           = findViewById(R.id.UbiPomodoro);
+        URLMcDonalds    = findViewById(R.id.URLMcDonalds);
+        TelfMcDonalds   = findViewById(R.id.TelfMcDonalds);
+        UbiMcDonalds    = findViewById(R.id.UbiMcDonalds);
+        URLViena        = findViewById(R.id.URLViena);
+        TelfViena       = findViewById(R.id.TelfViena);
+        UbiViena        = findViewById(R.id.UbiViena);
+        URLKFC          = findViewById(R.id.URLKFC);
+        TelfKFC         = findViewById(R.id.TelfKFC);
+        UbiKFC          = findViewById(R.id.UbiKFC);
+        URLBK           = findViewById(R.id.URLBK);
+        TelfBK          = findViewById(R.id.TelfBK);
+        UbiBK           = findViewById(R.id.UbiBK);
     }
 
 
