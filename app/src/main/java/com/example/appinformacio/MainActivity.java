@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.content.SharedPreferences;
 
 import androidx.preference.PreferenceManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Arrays;
 import java.util.List;
@@ -46,10 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         List<String> data = Arrays.asList("Japonés", "Italià", "Gelats");
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        CustomAdapter adapter = new CustomAdapter(data);
-        recyclerView.setAdapter(adapter);
+
     }
 
 
