@@ -30,6 +30,22 @@
     <string name="descripcioMarvels">Carol Danvers, alias Capitana Marvel, ha recuperado su identidad de los tiránicos Kree y se ha vengado de la Inteligencia Suprema. Pero unas consecuencias imprevistas hacen que Carol cargue con el peso de un universo desestabilizado. Cuando sus obligaciones la envían a un agujero de gusano anómalo vinculado a un revolucionario Kree, sus poderes se enredan con los de su superfan de Jersey, Kamala Khan, también conocida como Ms. Marvel y los de su sobrina, a la que llevaba tiempo sin ver, la Capitana Monica Rambeau. Juntas, este insólito trío deberá formar un equipo y aprender a trabajar unidas para salvar el universo como "The Marvels"</string>
 
     <string name="cdFNAF"></string>
+    <string name="restaurants">Restaurants</string>
+    <string name="url">URL</string>
+    <string name="telf">Telèfon</string>
+    <string name="ubi">Ubicació</string>
+    <string name="restaurantpomodoro">RestaurantPomodoro</string>
+    <string name="pomodoro">Pomodoro</string>
+    <string name="restaurantwok">RestaurantWok</string>
+    <string name="wok">Wok</string>
+    <string name="restaurantmcdonalds">RestaurantMcDonald\'s</string>
+    <string name="mcdonalds">McDonald\'s</string>
+    <string name="restaurantviena">RestaurantViena</string>
+    <string name="viena">Viena</string>
+    <string name="restaurantkfc">RestaurantKFC</string>
+    <string name="kfc">KFC</string>
+    <string name="restaurantburgerking">RestaurantBurgerKing</string>
+    <string name="burger_king">Burger King</string>
 
     <string-array name="planets_array">
         <item>Mercury</item>
